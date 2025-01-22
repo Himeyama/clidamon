@@ -5,7 +5,7 @@ VOICEVOX API を呼び出し音声ファイル (*.wav) を作成するコマン�
 ## 例
 
 ```ps1
-clidamon.exe --text "こんにちは" --speaker-id 1 --output="output.wav"
+."$env:localappdata\clidamon\clidamon.exe" --text "こんにちは" --speaker-id 1 --output="output.wav"
 start output.wav
 ```
 
